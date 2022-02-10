@@ -1,0 +1,28 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    align-self: center;
+}
+
+.grid-item {
+    border: 1px solid black;
+    
+}
+
+.color {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.button {
+    align-self: center;
+}
